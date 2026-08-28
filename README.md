@@ -139,17 +139,42 @@ public class HomeController {
 
 ```html
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
 <head>
-    <title>Spring MVC</title>
+  <meta charset="UTF-8">
+  <title>Index</title>
 </head>
 <body>
-    <h1 th:text="${message}">Default Message</h1>
+<p>ADVANCED JAVA WEB APPLICATIONS - 19AI553
+</p>
 </body>
+<style>
+  body {
+  background-color: Lightblue;
+  }
+  p {
+  font-family: verdana;
+  font-size: 50px;
+  text-color: white;
+  text-align: center;
+  }
+</style>
 </html>
 ```
 
 ### application.properties:
- server.port=8081
+```
+# Server port
+server.port=8080
 
+# Thymeleaf configuration
+spring.thymeleaf.prefix=classpath:/templates/
+spring.thymeleaf.suffix=.html
+spring.thymeleaf.mode=HTML
+spring.thymeleaf.encoding=UTF-8
+spring.thymeleaf.servlet.content-type=text/html
+```
+
+### Output
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dc021abe-1339-4736-9ef4-0e013d5c29ea" />
 
