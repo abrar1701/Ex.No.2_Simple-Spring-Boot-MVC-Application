@@ -48,6 +48,7 @@ Access the Application:
 
 Open a browser and navigate to http://localhost:8080/
 ## PROGRAM
+```
 spring-mvc-demo/
 ├── src/
 │   └── main/
@@ -60,6 +61,7 @@ spring-mvc-demo/
 │           │   └── Index.html
 │           └── application.properties
 ├── pom.xml
+```
 
 ### pom.xml :
 ```
